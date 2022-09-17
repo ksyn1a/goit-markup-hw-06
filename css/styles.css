@@ -795,7 +795,8 @@ html {
   left: 12px;
   transform: translateY(-11px);
 
-  transition: fill var(--transition-duration);
+  transition: fill var(--transition-duration), outline var(--transition-duration),
+    border-radius var(--transition-duration);
 }
 
 .register-form-input:focus + .register-form-icon {
